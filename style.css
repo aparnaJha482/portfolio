@@ -1,0 +1,22 @@
+h1 {
+
+}
+.subheader{
+       text-align: right;
+}
+.firstbox{
+
+height: 400px;
+
+width: 100%;
+
+padding: 84px;
+
+border: 5px solid crimson;
+
+margin: 76px;
+
+border-radius: 89px;
+
+/* border-bottom-left-radius: unset; */
+}
