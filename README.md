@@ -1,3 +1,2 @@
-# portfolio
-create a portfolio website
-A responsive page which displays my portfolio and works on several devices like mobile , tabs ,etc.
+
+A responsive page which displays my portfolio and also works on several devices like mobile , tabs ,etc.
