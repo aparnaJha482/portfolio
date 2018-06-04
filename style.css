@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: 'Lato' , sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 a {
@@ -10,8 +10,8 @@ a {
 
 }
 
-@media screen and (min-width: 1024px){
-    body{
+@media screen and (min-width: 1024px) {
+    body {
         width: 720px;
         margin-top: 8px;
         margin-left: auto;
@@ -20,43 +20,43 @@ a {
 
 }
 
-
 figure,
 img,
 section {
     max-width: 100%;
     margin: 0;
 }
-.Header{
+
+.Header {
     display: inline-block;
     flex-wrap: wrap;
     height: 100px;
     width: 100px;
 }
 
-.Header_logo{
+.Header_logo {
     width: 20%;
-    order:1;
+    order: 1;
 }
 
-.Header-logo{
-    top:auto;
+.Header-logo {
+    top: auto;
     position: relative;
     width: 100px;
-    height:  100px;
-    float:  left;
-    padding:  7%;
+    height: 100px;
+    float: left;
+    padding: 7%;
 
 }
 
-.Header_name{
-    width:  80%;
+.Header_name {
+    width: 80%;
     order: 2;
     text-align: right;
 
 }
 
-.Header-title{
+.Header-title {
     font-size: xx-large;
     color: brown;
     font-weight: 100;
@@ -66,73 +66,72 @@ section {
 .Header-subtitle,
 h3 {
     color: blueviolet;
-    font-weight:  bolder;
+    font-weight: bolder;
     font-size: medium;
     margin-top: 0;
 }
 
-@media screen and (max-width: 425px){
-    .Header-subtitle{
+@media screen and (max-width: 425px) {
+    .Header-subtitle {
         font-size: small;
     }
 
-    .Header-title{
-        font-size: inherit ;
+    .Header-title {
+        font-size: inherit;
     }
 }
 
-hr{
-    border:3px solid #7d97ad;
-    width:100%;
+hr {
+    border: 3px solid #7d97ad;
+    width: 100%;
 }
 
-.background{
+.background {
     font-size: x-large;
 }
 
-
-.projects{
+.projects {
     font-size: x-large;
 }
 
-article h3{
+article h3 {
     color: brown;
     margin-bottom: 8px;
     font-size: xx-large;
     font-weight: initial;
 }
 
-.Box{
+.Box {
     width: 100%;
     text-align: center;
     padding: 1px;
     margin-bottom: 10px;
 }
 
-@media screen and (min-width: 768px){
-    .container{
+@media screen and (min-width: 768px) {
+    .container {
         width: 33.33%;
         text-align: center;
     }
 
 }
 
-.details{
+.details {
     line-height: 1px;
     color: blueviolet;
     font-weight: 100;
 }
 
-.details h2{
+.details h2 {
     font-weight: normal;
 }
 
-.details p{
+.details p {
     font-size: 70%;
 }
 
 /*Footer*/
-footer p{
+footer p {
     text-align: center;
     font-size: small;
 }
