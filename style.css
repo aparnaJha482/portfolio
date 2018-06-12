@@ -12,7 +12,7 @@ a {
 
 @media screen and (min-width: 1024px) {
     body {
-        width: 720px;
+        width: 1024px;
         margin-top: 8px;
         margin-left: auto;
         margin-right: auto;
@@ -31,7 +31,7 @@ section {
     display: inline-block;
     flex-wrap: wrap;
     height: 100px;
-    width: 100px;
+    width: 100%;
 }
 
 .Header_logo {
@@ -50,7 +50,6 @@ section {
 }
 
 .Header_name {
-    width: 80%;
     order: 2;
     text-align: right;
 
@@ -77,6 +76,10 @@ h3 {
     }
 
     .Header-title {
+        font-size: x-large;
+    }
+
+    .projects {
         font-size: inherit;
     }
 }
@@ -87,7 +90,7 @@ hr {
 }
 
 .background {
-    font-size: x-large;
+    width: 100%;
 }
 
 .projects {
@@ -110,10 +113,18 @@ article h3 {
 
 @media screen and (min-width: 768px) {
     .container {
+        display: inline-flex;
+        flex-wrap: wrap;
+    }
+
+    .Box {
         width: 33.33%;
         text-align: center;
     }
 
+    .project-image {
+        height: 250px;
+    }
 }
 
 .details {
@@ -135,3 +146,4 @@ footer p {
     text-align: center;
     font-size: small;
 }
+
